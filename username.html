@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <script type="text/javascript">
+        function check(){
+            var user=document.getElementById("text1").value;
+            var pass=document.getElementById("text2").value;
+            if(user==pass){
+                alert("correct");
+            }
+            else{
+                alert("incorrect");
+            }
+        
+        }
+
+
+
+        </script>
+        <body>
+            <input id="text1" placeholder="username">
+            <br><br>
+            <input type="password" id="text2" placeholder="password">
+            <br>
+            <button onclick="check()" id="btn">login</button>
+
+        </body>
+    </head>
+</html>
